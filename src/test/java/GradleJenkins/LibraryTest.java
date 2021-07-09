@@ -18,6 +18,6 @@ public class LibraryTest {
     	Employee emp = new FullTimeEmployee();
     	assertEquals("Full Time Employee", emp.getEmployeeType()) ;
        	Employee emp1 = new PartTimeEmployee();
-       	assertEquals("Base Employee", emp1.getEmployeeType()); 
+       	assertEquals("Part time Employee", emp1.getEmployeeType()); 
     }
 }
