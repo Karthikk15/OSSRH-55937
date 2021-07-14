@@ -2,7 +2,7 @@ package GradleJenkins;
 
 public class PartTimeEmployee extends Employee  {
 
-	public Sting getEmployeeType() {
+	public String getEmployeeType() {
 		return "Part time Employee";
 	}
 }
